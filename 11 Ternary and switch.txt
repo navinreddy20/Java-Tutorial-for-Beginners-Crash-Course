@@ -1,0 +1,62 @@
+
+public class SelectionDemo 
+{
+	// ternary operator
+	// ?: -> condition?expr1:expr2
+	
+	public static void main(String args[])
+	{
+//		int i = 5;		
+//		int j = 0;
+		
+//		if(i>6)
+//			j=1;
+//		else
+//			j=2;
+		
+//		j = i>6?1:2;	
+//		System.out.println(j);
+		
+// Switch Statement
+		
+//		int n = 6;
+//		
+//		switch(n)
+//		{
+//		case 1:
+//			System.out.println("One");
+//			break;
+//		case 2:
+//			System.out.println("Two");
+//			break;
+//		case 3:
+//			System.out.println("Three");
+//			break;
+//		case 4:
+//			System.out.println("Four");
+//			break;
+//		case 5:
+//			System.out.println("Five");
+//			break;
+//		default:
+//			System.out.println("No Match");
+		
+		
+		
+		String d = "abc";
+		
+		switch(d)
+		{
+		case "abc":
+			System.out.println("One");
+			break;
+	    case "pqr":
+	    	System.out.println("Two");
+	    	break;
+	    	
+	    default:
+	    	System.out.println("No Match");
+		}
+
+    }
+}
