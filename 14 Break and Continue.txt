@@ -1,0 +1,25 @@
+
+public class JumpDemo 
+{
+	// break, continue
+	public static void main(String[] args)
+	{
+//Continue
+//		for(int i=1;i<=10;i++)
+//			if(i==7) 
+//			{
+//				continue;
+//			}
+//			System.out.println("value is " + i);
+			
+//Break
+	for(int i=1;i<=10;i++)
+	{
+		if(i>5) 
+		{
+			break;
+		}
+		System.out.println("value is " +  i);
+	}
+}
+}
