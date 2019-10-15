@@ -1,0 +1,35 @@
+
+class Ai
+{
+//	final int DAY; // constant
+//	public Ai()
+//	{
+//		DAY = 10;
+//		DAY = 19;
+//	}
+	
+	public final void show()
+	{
+		System.out.println("in Ai show");
+	}
+}
+class Bi extends Ai
+{
+	public void show()
+	{
+	System.out.println("in Bi show");
+	}
+}
+
+public class FinalDemo 
+{
+	public static void main(String[] args)
+	{
+//		Ai obj = new Ai();
+		Bi obj = new Bi();
+		obj.show();
+		
+		
+//		System.out.println(obj.i);
+	}
+}
