@@ -1,0 +1,19 @@
+
+public class FirstCode 
+{
+	public static void main(String args[])
+	{
+//		System.out.print(5);
+		
+//		int a = 5;
+//		System.out.print(a);
+		
+		int num = 50_00_00_000;  //4 bytes -> 32 bits -> -2,147,483,648 to 2,147,483,647
+		num = 8;
+		System.out.println(num);
+		
+		float percent1 = 5.5f;    // 4 bytes
+		
+		double percent = 5.5;     // 8 bytes
+	}
+}
