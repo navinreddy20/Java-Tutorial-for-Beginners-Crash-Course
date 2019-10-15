@@ -1,0 +1,32 @@
+// Abstract class -> Define and declare
+// Interface -> declare -> 1.7
+// 1.8 can define method in interface
+
+@FunctionalInterface
+interface Demo
+{
+	int num=8;
+	void abc();
+	
+	static void show()
+	{
+		System.out.println("hi");
+	}
+
+}
+class DemoImp implements Demo
+{
+	public void abc()
+	{
+		num=9;
+	}
+}
+
+public class InterfaceDemo 
+{
+	public static void main(String[] args)
+	{
+		
+		Demo.show();
+	}
+}
