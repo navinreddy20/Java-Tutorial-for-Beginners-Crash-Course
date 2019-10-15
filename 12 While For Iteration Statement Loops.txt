@@ -1,0 +1,39 @@
+
+public class iterationDemo 
+{
+	public static void main(String args[])
+	{
+//		System.out.println("Hello");
+//		System.out.println("Hello");
+//		System.out.println("Hello");
+//		System.out.println("Hello");
+//		System.out.println("Hello");
+		
+//while,do while,for,for-each
+		
+//while loop
+//		
+//		int i=1;
+//		while(i<=5)
+//		{
+//			System.out.println("Hello");
+//			i++;
+//		}
+		
+//do while loop
+//		
+//		int i=9;
+//		do
+//		{
+//			System.out.println("Hello");
+//			i++;
+//		}while(i<=5);
+		
+//for loop
+		
+		for(int i=1;i<=5;i++)
+		{
+			System.out.println("Hello");
+		}
+	}
+}
